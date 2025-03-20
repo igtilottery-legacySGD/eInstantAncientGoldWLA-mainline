@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
     <family code="2344" desc="Lottery Game" studio="interactive" organizationName="Interactive">
         <!-- -  For spot supported games: spots are colon separated string like 1:2:3:4:5.Otherwise left blank -->
-        <game name="Ancient Gold WLA" version="1.0.3" gameengineversion="2" gamelogicversion="1.0"
+        <game name="Ancient Gold WLA" version="1.0.4" gameengineversion="2" gamelogicversion="1.0"
               number="0"
               jackpotid=""
               gametype="L"
