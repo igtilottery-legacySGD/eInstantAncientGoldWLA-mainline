@@ -10,7 +10,7 @@
 		<maven.javadoc.skip>true</maven.javadoc.skip>
 		<env.P4_CHANGELIST>0</env.P4_CHANGELIST>
 		<env.BUILD_NUMBER>0</env.BUILD_NUMBER>
-		<env.NEXUS_ROOT>http://igti-nexus.lab.wagerworks.com/content/groups/public</env.NEXUS_ROOT>
+		<env.NEXUS_ROOT>https://ilottery.foundryilotterydev.com/nexus/repository/maven-public</env.NEXUS_ROOT>
 		<ant.target>process-demo</ant.target>
 		<!-- DEBUG PROPERTIES -->
 		<nolocal>false</nolocal>
@@ -1752,21 +1752,21 @@
 	<repositories>
 		<repository>
 			<id>central</id>
-			<url>http://igti-nexus.lab.wagerworks.com/content/groups/public</url>
+			<url>https://ilottery.foundryilotterydev.com/nexus/repository/maven-public</url>
 			<snapshots>
 				<enabled>true</enabled>
 			</snapshots>
 		</repository>
 		<repository>
 			<id>repo.snapshots</id>
-			<url>http://igti-nexus.lab.wagerworks.com/content/repositories/snapshots</url>
+			<url>https://ilottery.foundryilotterydev.com/nexus/repository/maven-snapshots/</url>
 			<snapshots>
 				<enabled>true</enabled>
 			</snapshots>
 		</repository>
 		<repository>
 			<id>repo.releases</id>
-			<url>http://igti-nexus.lab.wagerworks.com/content/repositories/releases</url>
+			<url>https://ilottery.foundryilotterydev.com/nexus/repository/maven-releases/</url>
 			<snapshots>
 				<enabled>true</enabled>
 			</snapshots>
@@ -1775,21 +1775,21 @@
 	<pluginRepositories>
 		<pluginRepository>
 			<id>central</id>
-			<url>http://igti-nexus.lab.wagerworks.com/content/groups/public</url>
+			<url>https://ilottery.foundryilotterydev.com/nexus/repository/maven-public</url>
 			<snapshots>
 				<enabled>true</enabled>
 			</snapshots>
 		</pluginRepository>
 		<pluginRepository>
 			<id>plugins.snapshots</id>
-			<url>http://igti-nexus.lab.wagerworks.com/content/repositories/snapshots</url>
+			<url>https://ilottery.foundryilotterydev.com/nexus/repository/maven-snapshots/</url>
 			<snapshots>
 				<enabled>true</enabled>
 			</snapshots>
 		</pluginRepository>
 		<pluginRepository>
 			<id>plugins.releases</id>
-			<url>http://igti-nexus.lab.wagerworks.com/content/repositories/releases</url>
+			<url>https://ilottery.foundryilotterydev.com/nexus/repository/maven-releases/</url>
 			<snapshots>
 				<enabled>true</enabled>
 			</snapshots>
@@ -1799,12 +1799,12 @@
 		<repository>
 			<id>nexus.release</id>
 			<name>Internal Release Repository</name>
-			<url>http://igti-nexus.lab.wagerworks.com/content/repositories/releases/</url>
+			<url>https://ilottery.foundryilotterydev.com/nexus/repository/maven-releases//</url>
 		</repository>
 		<snapshotRepository>
 			<id>nexus.snapshots</id>
 			<name>Internal Snapshot Repository</name>
-			<url>http://igti-nexus.lab.wagerworks.com/content/repositories/snapshots/</url>
+			<url>https://ilottery.foundryilotterydev.com/nexus/repository/maven-snapshots//</url>
 		</snapshotRepository>
 	</distributionManagement>
 	<scm>
